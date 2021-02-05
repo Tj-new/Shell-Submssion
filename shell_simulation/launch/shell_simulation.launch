@@ -1,0 +1,7 @@
+<launch>
+    <!-- Sleep for a second before launching to ensure the environment is up -->
+    <node pkg="shell_simulation"
+          name="shell_node"
+          type="control_car_node"
+          />
+</launch>
